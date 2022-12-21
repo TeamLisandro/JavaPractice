@@ -1,4 +1,4 @@
-package co.com.practice;
+ package co.com.practice;
 
 public class MainMiguel {
 
@@ -14,14 +14,14 @@ public class MainMiguel {
 
 
 
-       Employee employee1 = new Employee("lisandro","engineer","march 2000",40000,"QA");
+       Employee employee1 = new Employee("lisandro","engineer",20,40000,"QA");
 
        System.out.println(employee1.getName()); //with this method I can check the value of a variable in this specific part of my code, in order to identify deviations or mistakes in the value
 
        Employee employee2 = new Employee();
        employee2.setName("miguel");
        employee2.setJobPosition("engineer");
-       employee2.setHiringDate("june 2001");
+       employee2.setYearsService(1);
        employee2.setSalary(20000);
        employee2.setDepartment("QA");
 

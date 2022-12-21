@@ -5,16 +5,16 @@ public class Employee {
     private String name;
     private String jobPosition;
     private double salary;
-    private String hiringDate;
+    private int yearsService;
     private String department;
 
     public Employee(){}
 
-    public Employee(String name,String jobPosition,String hiringDate,double salary,String department){
+    public Employee(String name, String jobPosition, int yearsService, double salary, String department){
         this.name =name;
         this.jobPosition = jobPosition;
         this.salary = salary;
-        this.hiringDate = hiringDate;
+        this.yearsService = yearsService;
         this.department = department;
     }
 
@@ -22,9 +22,15 @@ public class Employee {
         this.name =name;
         this.jobPosition = jobPosition;
     }
-
+    
+    public Employee(String name, String jobPosition, int yearsService, String department){
+        this.name = name;
+        this.jobPosition = jobPosition;
+        this.yearsService = yearsService;
+        this.department = department;
+    }
     public void setName(String name){
-         this.name = name;
+        this.name = name;
     }
 
     public void setJobPosition(String jobPosition){
@@ -35,8 +41,8 @@ public class Employee {
         this.salary = salary;
     }
 
-    public void setHiringDate(String hiringDate){
-        this.hiringDate = hiringDate;
+    public void setYearsService(int yearsService){
+        this.yearsService = yearsService;
     }
 
     public void setDepartment(String department){
@@ -55,8 +61,8 @@ public class Employee {
         return this.salary;
     }
 
-    public String getHiringDate() {
-        return this.hiringDate;
+    public int getYearsService() {
+        return this.yearsService;
     }
 
     public String getDepartment() {
