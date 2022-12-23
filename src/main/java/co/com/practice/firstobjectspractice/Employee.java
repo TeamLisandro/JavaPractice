@@ -1,4 +1,4 @@
-package co.com.practice;
+package co.com.practice.firstobjectspractice;
 
 public class Employee {
 

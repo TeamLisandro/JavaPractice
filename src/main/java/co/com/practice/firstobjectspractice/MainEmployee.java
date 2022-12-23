@@ -1,4 +1,4 @@
-package co.com.practice;
+package co.com.practice.firstobjectspractice;
 
 import java.util.ArrayList;
 import java.util.List;
